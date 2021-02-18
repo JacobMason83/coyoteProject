@@ -1,12 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState, Fragment } from 'react'
 import ImgLogo from "../../style/images/coyote-grove.png"
 
 const Login = () => {
     const [username, setUserName] = useState('')
     const [password, setPassword] = useState('')
+    const [isOpen, setIsOpen ] = useState(false)
+    const handleClick = () => {
+        if(isOpen === false){
+            setIsOpen(true)
+        } else {
+            setIsOpen(false)
+        }
+    }
     return (
         <div className='click-container'>
-        <div className="clickable-header">
+        <div className="clickable-header" onClick={() => handleClick()}>
                 <h1>L</h1>
                 <h1>o</h1>
                 <h1>g</h1>
@@ -18,9 +26,10 @@ const Login = () => {
                 <h1>e</h1>
 
         </div>
+        {isOpen === true ? (
         <div className='login-container'>
             <div className="login-wrapper">            
-                <div className="login-content">
+                <form className="login-content">
                 <img src={ImgLogo} />
                 <label>username</label>
                     <input type="text"
@@ -36,9 +45,12 @@ const Login = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     />
-                </div>
+                    <button className='btn' type='submit'>Submit</button>
+                </form>
             </div>
         </div>
+
+        ): (<Fragment></Fragment>)}
 
         </div>
     )

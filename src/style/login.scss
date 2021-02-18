@@ -37,12 +37,15 @@
         position: absolute;
         top: 60%;
         left:32.5%;
-        transform: translate(50%, -50%);
+        transform: translate(25%, -50%);
         height: 500px;
         width: 500px;
-        background: rgb(31,31,52);
-        background: radial-gradient(circle, rgba(31,31,52,1) 0%, rgba(32,37,46,0.91290283203125) 35%, rgba(23,12,138,1) 100%);     
-      
+        background: rgba( 23, 12, 138, 0.05 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.0px );
+        -webkit-backdrop-filter: blur( 4.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
         .login-wrapper{          
            display: flex;
            align-items: center;
@@ -52,14 +55,30 @@
            .login-content {
                display: flex;
                flex-direction: column;
+               align-items: center;
                img {
                    border-radius: 50%;
                    width: 50%;
+                   margin-bottom: 15px;
+                   border: 2px solid #2695ff;
 }
                input {
                    width: 200px;
                    height: 30px;
                }
+               .btn {
+                background-color: #15ff25;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                font-size: 20px;
+                color: white;
+                width: 100px ;
+                font-weight: 900;
+                margin-top: 10px;
+}
            }
         }
     }
