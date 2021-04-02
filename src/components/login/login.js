@@ -14,16 +14,21 @@ const Login = () => {
     }
     return (
         <div className='click-container'>
+           
         <div className="clickable-header" onClick={() => handleClick()}>
-                <h1>L</h1>
-                <h1>o</h1>
-                <h1>g</h1>
-                <h1>i</h1>
-                <h1>n</h1>
-                <h1>H</h1>
-                <h1>e</h1>
-                <h1>r</h1>
-                <h1>e</h1>
+        
+       
+                <h1>
+                <span>l</span>
+                <span>o</span>
+                <span>g</span>
+                <span>i</span>
+                <span>n</span>
+                <span>h</span>
+                <span>e</span>
+                <span>r</span>
+                <span>e</span>
+                </h1>
 
         </div>
         {isOpen === true ? (

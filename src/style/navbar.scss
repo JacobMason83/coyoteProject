@@ -1,11 +1,13 @@
 .nav-container {
+    
     width: 100%;
-    background: rgb(31,31,52);
-    background: radial-gradient(circle, rgba(31,31,52,1) 0%, rgba(32,37,46,0.91290283203125) 35%, rgba(23,12,138,1) 100%);
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.8) 0%, rgba(41,153,173,1) 56%, rgba(65,233,117,1) 100%);
     color: #15ff25;
     font-weight: 700;
     -webkit-box-shadow: 5px 5px 15px 5px #15ff25; 
     box-shadow: 5px 5px 15px 5px #15ff25;
+    font-size: 1.5em;
     .nav-wrapper {
         display: flex;
         flex-direction: row;

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import LogoImg from '../../style/images/good Music, Good Times.png'
-import { Link } from 'react-router-dom'
+import LogoImg from '../../style/images/goodtimes.png';
 const NavBar = () => {
     return (
         <div className='nav-container'>
@@ -10,9 +9,9 @@ const NavBar = () => {
               </div>
               <div className="links-wrapper">
                   <ul className='nav-links'>
-                  <li className="links"><Link className='links-nav' to='/home'>Home</Link></li>
-                  <li className="links"><Link className='links-nav' to='/check-user'>Check Users</Link></li>
-                  <li className="links"><Link className='links-nav' to='/forms'>Forms</Link></li>                  
+                  <li className="links"><a className='links-nav' href='#'>Home</a></li>
+                  <li className="links"><a className='links-nav' href='#about-header'>About</a></li>
+                  <li className="links"><a className='links-nav' href='#upcoming-header'>Upcoming Events</a></li>                  
                   </ul>
               </div>
           </div>
