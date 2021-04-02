@@ -1,0 +1,6 @@
+@mixin glass-bg {
+    background: rgba( 23, 12, 138, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+}

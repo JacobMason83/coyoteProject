@@ -1,0 +1,30 @@
+@import './navbar.scss';
+@import './login.scss';
+@import './home.scss';
+@import './variablesMixins.scss';
+@import './footer.scss';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+body {
+    background-clip: border-box;
+    background-image: url('./images/pexels-bence-szemerey-7081159.jpg');
+    object-fit: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+}
