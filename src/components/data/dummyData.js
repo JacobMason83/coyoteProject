@@ -11,19 +11,19 @@ export const data = [
          - Address contact info more pictures coming soon`
         
     },
-     {
-        id: "2",
-        img: 'https://source.unsplash.com/random/350x350', 
-        alt: "random-img",
-        description: ' Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    //  {
+    //     id: "2",
+    //     img: 'https://source.unsplash.com/random/350x350', 
+    //     alt: "random-img",
+    //     description: ' Lorem ipsum dolor sit amet consectetur adipisicing elit'
         
-    },
-     {
-        id: "3",
-        img: 'https://source.unsplash.com/random/350x350', 
-        alt: "random-img",
-        description: 'coyote grove is the best kept secret in ohio'
-    },
+    // },
+    //  {
+    //     id: "3",
+    //     img: 'https://source.unsplash.com/random/350x350', 
+    //     alt: "random-img",
+    //     description: 'coyote grove is the best kept secret in ohio'
+    // },
  
 ]
 

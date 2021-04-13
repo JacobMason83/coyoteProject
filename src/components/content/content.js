@@ -50,7 +50,7 @@ export default function Content(props) {
           <Typography className={classes.headerSize} gutterBottom variant="h5" component="h2">
             Coyote Grove 
           </Typography>
-          <Typography className={classes.fontSize} gutterBottom Bottom variant="body2" color="bold" component="p">
+          <Typography className={classes.fontSize} gutterBottom variant="body2"  component="p">
           {item.description}
           </Typography>
         </CardContent>
